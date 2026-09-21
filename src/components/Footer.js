@@ -15,7 +15,7 @@ function Footer() {
                     <p>Class: SE2058 - Node JS</p>
                 </Row>
                 <Row>
-                    <p>Email: tuyetphan@70106@gmai.com</p>
+                    <p>Email: tuyetphan270106@gmail.com</p>
                 </Row>
             </Col>
         </>

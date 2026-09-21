@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Col, Container, InputGroup, Nav, Navbar, Row } from 'react-bootstrap'
 
-function Header() {
+function Header({ cartCount = 0 }) {
     return (
         <>
             <Row>
@@ -22,7 +22,7 @@ function Header() {
                                                 <Nav.Link href="#contact">Women</Nav.Link>
                                                 <Nav.Link href="#contact">Contact</Nav.Link>
                                                 <Button variant="outline-success"><InputGroup.Text id="btnGroupAddon">@</InputGroup.Text></Button>
-                                                <Nav.Link href="#contact">Cart (0)</Nav.Link>
+                                                <Nav.Link href="#contact">Cart ({cartCount})</Nav.Link>
                                             </Nav>
 
                                         </Navbar.Collapse>

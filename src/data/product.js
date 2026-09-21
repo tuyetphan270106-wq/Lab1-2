@@ -11,7 +11,7 @@ const products = [
         name: "Women T-Shirt",
         price: 250000,
         status: "In Stock",
-        image: "/image/nu1.jpg",
+        image: "/image/Nu1.jpg",
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const products = [
         name: "Jacket",
         price: 650000,
         status: "In Stock",
-        image: "/image/nu2.jpg",
+        image: "/image/Nu2.jpg",
     },
     {
         id: 5,
@@ -39,7 +39,7 @@ const products = [
         name: "Shirt",
         price: 350000,
         status: "In Stock",
-        image: "/image/nu3.jpg",
+        image: "/image/Nu3.jpg",
     },
 ];
 export default products;
